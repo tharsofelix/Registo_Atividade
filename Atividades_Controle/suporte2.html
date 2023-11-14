@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LISTAR CATEGORIAS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-brand img {
+            width: 150px;
+        }
+
+        .navbar-nav a {
+            color: #fff !important;
+        }
+
+        .bg-light {
+            background-color: #f8f9fa !important;
+        }
+
+        .contact-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact-container div {
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .phone-icon {
+            background: url('phone-icon.png') center/cover;
+        }
+
+        .email-icon {
+            background: url('email-icon.png') center/cover;
+        }
+
+        .whatsapp-icon {
+            background: url('whatsapp-icon.png') center/cover;
+        }
+
+        .instagram-icon {
+            background: url('instagram-icon.png') center/cover;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid text-center">
+            <a class='navbar-brand' href='index.html'>
+                <img src='img/logo.png' alt='Logo'>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link " href="index.html">INÍCIO</a>
+                    <a class="nav-link" href="registro.html">REGISTRAR</a>
+                    <a class="nav-link" href="listaratividades.html">ATIVIDADES</a>
+                    <a class="nav-link " href="listarcategorias.html">CATEGORIAS</a>
+                    <a class="nav-link active" href="suporte.html">SUPORTE</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact-container">
+                    <div>
+                        <span class="icon phone-icon"></span>
+                        Telefone: +XX XXXX-XXXX
+                    </div>
+                    <div>
+                        <span class="icon email-icon"></span>
+                        Email: seuemail@example.com
+                    </div>
+                    <div>
+                        <span class="icon whatsapp-icon"></span>
+                        WhatsApp: +XX XXXXX-XXXX
+                    </div>
+                    <div>
+                        <span class="icon instagram-icon"></span>
+                        Instagram: @seu_instagram
+                    </div>
+                    <p>Estamos sempre disponíveis para ajudar! Entre em contato conosco pelos meios acima. 😊</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5 text-center text-light bg-dark py-3">
+        <p>&copy; 2023 Registro de Atividades</p>
+    </footer>
+</body>
+
+</html>
